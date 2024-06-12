@@ -1,0 +1,512 @@
+/*==============font link css strat ================= */
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Inter:wght@100..900&family=Podkova:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* ==============font link css end===============*/
+/*==============common  css strat ================= */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration:none;
+}
+ ul,ol{
+    list-style: none;
+ }
+ h1,h2,h3,h4,h5,h6,p,ul,ol{
+ margin: 0;
+ padding: 0;
+ }
+ :root{
+    --poppins:"Poppins", sans-serif;
+ }
+/* ==============common  css end===============*/
+/*==============navber css strat ================= */
+.main-menu ul{
+    gap: 50px;
+  }
+ .main-menu ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #000 !important;
+    position: relative;
+  }
+  .main-menu ul li a::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: rgb(25, 13, 202);
+    border-radius: 2px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: scale(0);
+    transition: all linear.5s;
+  }
+  .main-menu ul li a:hover::after{
+    transform: scale(1);
+  }
+ .menu-button{
+    display: flex;
+    gap: 33px;
+    align-items: center;
+ }
+ .menu-button .searchicon{
+    font-size: 20px;
+    color: #ED017F;
+ }
+ .menu-button a:hover{
+    background: blue;
+ }
+ /* ==============navber css end===============*/
+ /*======= img part css start======*/
+ .heding{
+position: absolute;
+width: 643px;
+height: 443px;
+left: 707px;
+top: 277px;
+background: #DFE9F4;
+border-radius: 10px;
+
+ }
+ .heding h1{
+   color: #333333;
+   margin-left: 20px;
+ }
+ .heding h2{
+   width: 421px;
+   height: 127px;
+   font-size: 52px;
+   font-weight: 700px;
+   color: #054C73;
+   margin-left: 20px;
+   margin-top: 20px;
+ }
+ .heding p{
+   font-size: 18px;
+   font-weight: 500px;
+   color: #333333;
+   margin-left: 20px;
+   margin-top: 20px;
+ }
+ .heding a{
+   font-size: 16px;
+   font-weight: 700px;
+   color: #FFFFFF;
+   margin-left: 20px;
+   width: 229px;
+   height: 70px;
+   background: #054C73;
+   border-radius: 50px;
+   padding: 25px 72px;
+   margin-top: 30px;
+   transition: all linear.3s;
+ }
+ .heding a:hover{
+   background: #ED017F;
+ }
+   /*======= img part css end======*/
+/* =============collections part start====================== */
+#banner-part{
+    background-image: url(../img/Mask\ Group.jpg);
+    width: 100%;
+    height: 749px;
+}
+.collection{
+position: absolute;
+width: 510px;
+height: 443px;
+left: 707px;
+top: 277px;
+
+background: #DFE9F4;
+border-radius: 10px;
+
+}
+
+.head h3{
+font-size: 16px;
+font-weight: 600;
+
+color: #333333;
+margin-top: 27px;
+margin-left: 39px;
+ 
+}
+
+.head h4{
+
+width: 421px;
+font-size:52px;
+font-weight: 700;
+font-family: 'Montserrat';
+
+color: #054C73;
+margin-top: 20px;
+margin-left: 39px;
+}
+.head p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 39px;
+color: #333333;
+margin-left: 39px;
+margin-top: 29px;
+margin-bottom: 30px;
+
+}
+.head a{
+    
+width: 229px;
+height: 70px;
+font-size: 16px;
+font-weight: 700;
+color: #FFFFFF;
+margin-left: 39px;
+top: 609px;
+background: #054C73;
+border-radius: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all linear , 1s;
+}
+.head a:hover{
+background: green;
+}
+
+/* =============collections part end====================== */
+/*============== free_delivery css start====*/
+#free-delivery{
+width: 100%;
+height: 150px;
+background: #F2F5FF;
+
+}
+.row{
+    background: F2F5FF;
+}
+.col-img{
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+    margin-top: 46px;
+}
+.collection2{
+    text-align: center;
+    margin-top: 60px;
+}
+.main-row{
+    display: flex;
+    justify-content: space-between;
+}
+.img-col{
+    margin-top: 87px;
+}
+.col2{
+    margin-top: 12px;
+}
+.col3{
+    margin-top: 91px;
+}
+/*============== free_delivery css end====*/
+/* ===========Beautify Your Space start=========================== */
+.row3{
+width: 100%;
+height: 874px;
+background: #F2F5FF;
+margin-top: 66px;
+
+}
+.main-head h5{
+ width: 394px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+color: #333333;
+padding-top: 296px;
+margin-left: 155px;
+}
+.main-head p{
+width: 489px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 39px;
+
+color: #666666;
+margin-top: 21px;
+margin-bottom: 30px;
+margin-left: 155px;
+}
+
+.main-head a{
+width: 228px;
+height: 68px;
+font-size: 16px;
+font-weight: 700;
+font-family: 'Montserrat';
+background: #054C73;
+border-radius: 50px;
+color: #FFFFFF;
+left: 154px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 155px;
+}
+.img-2{
+position: absolute;
+width: 500px;
+height: 740px;
+left: 633px;
+top: 1712px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.main-head img{
+
+position: absolute;
+width: 372px;
+height: 373.71px;
+left: 810px;
+top: 2001px;
+}
+/* ===========Beautify Your Space end=========================== */
+/* =================browse the range start==================== */
+.range h4{
+font-size: 32px;
+font-weight: 700;
+font-family: 'Montserrat';
+text-align: center;
+color: #333333;
+padding-top: 55px;
+}
+.range p{
+font-size: 20px;
+font-weight: 400;
+font-family: 'Montserrat';
+text-align: center; 
+color: #666666;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+.dining{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.img-col4 h6{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+     color: #333333;
+    text-align: center;
+    margin-top: 30px;
+  
+
+}
+.col5 h5{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+     color: #333333;
+    text-align: center;
+    margin-top: 30px;
+}
+.col6 h4{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+     color: #333333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+/* =================browse the range end==================== */
+/* ========================how it works start============== */
+.Purchase-Securely h4{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #333333;
+    padding-top: 55px;
+    }
+    .Purchase-Securely p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    text-align: center; 
+    color: #666666;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    }
+    .Purchase{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .img-col7 h6{
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'Montserrat';
+         color: #333333;
+        text-align: center;
+        margin-top: 30px;
+      
+    
+    }
+    .col8 h5{
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'Montserrat';
+         color: #333333;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .col9 h4{
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'Montserrat';
+         color: #333333;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .img-col7 p{
+        width: 381px;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Montserrat';
+        color: #666666;
+        margin-top: 10px;
+    }
+    .col8 p{
+        width: 381px;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Montserrat';
+        color: #666666;
+        margin-top: 10px;
+    }
+    .col9 p{
+        width: 381px;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Montserrat';
+        color: #666666;
+        margin-top: 10px;
+    }
+/* ========================how it works start============== */
+/* ================join our miling list start================ */
+#alomgir{
+    display: flex;
+    justify-content: center;
+}
+#join{
+width: 100%;
+height: 363px;
+background: #F2F5FF;
+margin-top: 198px;
+}
+.head-main h4{
+ text-align: center;
+ font-size: 32px;
+ font-weight: 700;
+ font-family: 'Montserrat';
+ color: #333333;
+ text-align: center;
+padding-top: 59px;
+}
+.head-main p{
+    text-align: center;
+    height: 71px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    color: #666666;
+    line-height: 39px;
+}
+.email{
+    width: 486px;
+    height: 70px;
+    border: 1px solid #054C73;
+    border-radius: 5px;
+    display: flex;
+   text-align: center;
+}
+.input-email{
+    width: 400px;
+    height: 68px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 25px 25px 25px;
+}
+.submit{
+width: 84px;
+height: 68px;
+background: #054C73;
+color: white;
+border-radius: 3px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+/* ================join our miling list end================ */
+/* ====================footer part start======================= */
+#footer_bg{
+    width: 100%;
+    height: 386px;
+    background: #03344F;
+}
+.main_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_text{
+    padding-top: 49px;
+}
+.footer_text h6{
+    font-family: var(--mans);
+    font-weight: 800;
+    font-size: 24px;
+    color:#fff;
+    margin-top: 34px;
+    margin-bottom: 21px;
+}
+.footer_text p{
+    width: 400px;
+    font-family: var(--mans);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.footer_img{
+    padding-top: 49px;
+}
+.footer_img h6{
+    font-family: var(--mans);
+    font-weight: 800;
+    font-size: 24px;
+    color:#fff
+}
+.all_images{
+    display: flex;
+    gap: 21px;
+    padding-top: 34px;
+}
+
+
+
+/* ====================footer part end======================= */
